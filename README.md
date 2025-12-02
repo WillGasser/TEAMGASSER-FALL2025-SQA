@@ -1,7 +1,7 @@
 # TEAMGASSER-FALL2025-SQA
 
 - Team name: TEAMGASSER
-- Team members: Will Gasser (update if additional teammates contribute)
+- Team members: Will Gasser
 
 ## What this repo contains
 

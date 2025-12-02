@@ -1,6 +1,6 @@
 # Software Quality Activities
 
-## What we did
+## What I did
 - Added `fuzz.py` to automatically fuzz five methods (`makeChunks`, `days_between`, `dumpContentIntoFile`, `Average`, `Median`) with randomized inputs and capture issues instead of crashing.
 - Instrumented five methods with forensic logging to trace inputs and edge cases in `mining/mining.py` and `empirical/report.py`.
 - Created CI at `.github/workflows/ci.yml` to install dependencies, run the fuzzer, and compile sources on every push/PR.
@@ -33,4 +33,4 @@ python fuzz.py
 ## Lessons learned
 - Fuzzing simple utility methods quickly surfaces validation gaps and documents expected behavior on malformed inputs.
 - Lightweight logging gives immediate forensic breadcrumbs without heavy dependencies.
-- Keeping CI lean (fuzzer + compile check) ensures fast feedback while still exercising the added instrumentation.
+- Keeping CI compact ensures fast feedback while still exercising the added instrumentation.
